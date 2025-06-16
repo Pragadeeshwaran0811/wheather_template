@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather News</title>
+  <link rel="stylesheet"href="style.css">
+  </head>
+  <body>
+<div style="background-image: url('tropical-storm-barry-hits-gulf-coast-1607145-5c12d4c446e0fb0001f47f6e.jpg'); height: 300px; width: 100%; background-size:contain; background-position:top;">
+</div>
+
+  <div class="container">
+    <header>
+      <h1>Weather News</h1>
+      <div class="search-box">
+        <input type="text" id="city" placeholder="Enter City Name" />
+        <button onclick="getWeather()">Get Weather</button>
+      </div>
+    </header>
+
+    <div id="weather-result" class="weather-result">
+    </div>
+    <div id="error-message" class="error-message"></div>
+  </div>
+<script src="app.js"></script>
+  
+    </body>
